@@ -57,7 +57,7 @@ The following table details what actions are mapped to platform management roles
 - Similarly, access to a subresource does not grant access to its container resource. For example, granting access to a subnet doesn't grant access to that subnet's VPC.
 - In general, to change the relationship between multiple resources, the user must have access to each resource. For example, to attach a network interface to a security group, the user must have access to both the network interface and the security group. For more information, see [Required permissions for VPC resources](/docs/vpc?topic=vpc-resource-authorizations-required-for-api-and-cli-calls).
 
-For more information about assigning user roles in the UI, see [Managing user permissions for VPC resources](/docs/vpc?topic=vpc-managing-user-permissions-for-vpc-resources).
+For more information about assigning user roles in the UI, see [Granting user permissions for VPC resources](/docs/vpc?topic=vpc-managing-user-permissions-for-vpc-resources).
  
 ## Resources and resource groups
 {: #resources-and-resource-groups}
